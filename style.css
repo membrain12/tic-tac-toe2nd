@@ -1,0 +1,108 @@
+* {
+    padding: 0;
+    margin: 0;
+  }
+  
+  body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-flow: column;
+    gap: 32px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .text-display {
+    font-size: 60px;
+    text-align: center;
+    height: 80px;
+  }
+  
+  .board-container {
+    display: flex;
+    flex-flow: column;
+    height: 300px;
+    width: 300px;
+  }
+  
+  .row {
+    flex: 1;
+    display: flex;
+  }
+  
+  .location {
+    flex: 1;
+    cursor: pointer;
+    font-size: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .buttons {
+    display: flex;
+    width: 300px;
+    gap: 16px;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  button {
+    border: none;
+    background-color: lightblue;
+    color: black;
+    border-radius: 8px;
+    flex: 1;
+    height: 30px;
+    cursor: pointer;
+  }
+  
+  #A00 {
+    border-right: 1px solid #000;
+    border-bottom: 1px solid #000;
+  }
+  
+  #A01 {
+    border-left: 1px solid #000;
+    border-bottom: 1px solid #000;
+    border-right: 1px solid #000;
+  }
+  
+  #A02 {
+    border-left: 1px solid #000;
+    border-bottom: 1px solid #000;
+  }
+  
+  #A10 {
+    border-top: 1px solid #000;
+    border-right: 1px solid #000;
+    border-bottom: 1px solid #000;
+  }
+  
+  #A11 {
+    border: 1px solid #000;
+  }
+  
+  #A12 {
+    border-left: 1px solid #000;
+    border-bottom: 1px solid #000;
+    border-top: 1px solid #000;
+  }
+  
+  #A20 {
+    border-top: 1px solid #000;
+    border-right: 1px solid #000;
+  }
+  
+  #A21 {
+    border-left: 1px solid #000;
+    border-top: 1px solid #000;
+    border-right: 1px solid #000;
+  }
+  
+  #A22 {
+    border-left: 1px solid #000;
+    border-top: 1px solid #000;
+  }
+  
